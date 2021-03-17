@@ -199,6 +199,9 @@ analysis.algorithm.MPV = false
 # with the help of an enabler CPA to separate differnt program paths
 analysis.algorithm.analysisWithEnabler = false
 
+# Try to automatically fix bugs with genProg
+analysis.algorithm.bugrepair.genprog = false
+
 # use adjustable conditions algorithm
 analysis.algorithm.conditionAdjustment = false
 
